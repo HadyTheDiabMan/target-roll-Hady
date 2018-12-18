@@ -8,7 +8,6 @@ import java.util.Scanner;
 
 public class howmany 
 {
-
 	public static void main(String[] args) 
 	{
 		Random rand=new Random();
@@ -45,12 +44,8 @@ public class howmany
 			default:
 				num6=num6+1;
 				break;
-				
-		
-				
 			}
 		}
-		
 		System.out.println("\nNumber 1 was rolled "+num1+" times!");
 		System.out.println("\nNumber 2 was rolled "+num2+" times!");
 		System.out.println("\nNumber 3 was rolled "+num3+" times!");
