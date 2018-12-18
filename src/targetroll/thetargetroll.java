@@ -1,5 +1,5 @@
 /**
- * Hady Diab, How Many.
+ * Hady Diab, Target Roll.
  */
 package targetroll;
 
