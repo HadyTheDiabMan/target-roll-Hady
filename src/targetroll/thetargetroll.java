@@ -12,7 +12,7 @@ public class thetargetroll
 	public static void main(String[] args) 
 	{
 		Random rand=new Random();
-		int random= rand.nextInt(5)+1;
+		int random= rand.nextInt(6)+1;
 		Scanner dice=new Scanner(System.in);
 		System.out.println("Enter an integer number between 1 and 6: ");
 		int target= dice.nextInt();
@@ -26,11 +26,11 @@ public class thetargetroll
 		System.out.println("Press enter to roll the dice for the first time!");
 		dice.nextLine();
 		
-		while(target!=(rand.nextInt(5)+1))
+		while(target!=(rand.nextInt(6)+1))
 		{
 
 			roll=roll+1;
-			System.out.println("You rolled a "+(rand.nextInt(5)+1)+". Press enter to roll again." );
+			System.out.println("You rolled a "+(rand.nextInt(6)+1)+". Press enter to roll again." );
 			dice.nextLine();
 		}
 		System.out.println("\nIt took you "+roll+ " times to roll the target number!");
