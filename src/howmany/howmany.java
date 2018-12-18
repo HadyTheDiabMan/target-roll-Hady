@@ -20,7 +20,6 @@ public class howmany
 		int num4=0;
 		int num5=0;
 		int num6=0;
-		
 		for(int i=0;i!=rollnumber;i++)
 		{
 			System.out.println(rand.nextInt(5)+1);
