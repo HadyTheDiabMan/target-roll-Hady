@@ -1,3 +1,6 @@
+/**
+ * Hady Diab, How Many.
+ */
 package targetroll;
 
 import java.util.Random;
